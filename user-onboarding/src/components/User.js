@@ -11,8 +11,8 @@ export default function User(props) {
     return (
         <div className='user-container'>
             {/* <h2>{details.username}</h2> */}
-            <h3>Name: {details.firstName} {details.lastName}</h3>
-            {/* <p>Email: {details.email}</p> */}
+            <h3>Name: {details.first_name} {details.last_name}</h3>
+            <p>Email: {details.email}</p>
         </div>
     )
 }
